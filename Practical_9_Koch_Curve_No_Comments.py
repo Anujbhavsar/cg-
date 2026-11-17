@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def koch_curve(p1, p2, order):
-  """Recursively generates the points of a Koch curve between p1 and p2."""
   if order == 0:
     return np.array([p1, p2])
 
